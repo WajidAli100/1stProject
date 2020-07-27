@@ -29,4 +29,4 @@ jobs:
     - name: Installing surge
       run: npm install --global surge
     -name: deploying usnig surge
-     run: surge ./ projecthunt.surge.sh --token $ {{ secrets.Surge_Token }}
+     run: surge ./ projecthunt.surge.sh --token ${{ secrets.Surge_Token }}
