@@ -1,2 +1,0 @@
-# 1stProject
-basic website
